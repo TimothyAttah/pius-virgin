@@ -2,6 +2,10 @@ import styled, { css } from "styled-components";
 
 export const RailContainer = styled.div`
   padding: 20px;
+
+  @media screen and (max-width: 400px) {
+    text-align: center;
+  }
 `;
 export const RailTitle = styled.h2`
   color: darkred;

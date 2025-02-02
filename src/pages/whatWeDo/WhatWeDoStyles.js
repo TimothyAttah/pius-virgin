@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const WhatWeDoContainer = styled.div`
   padding: 20px;
   z-index: 999;
+
+  @media screen and (max-width: 400px){
+    text-align: center;
+  }
 `;
 export const WhatWeDoInfoContainer = styled.div`
   margin-bottom: 30px;
@@ -32,7 +36,7 @@ export const WhatWeDoListsContainer = styled.div`
 export const WhatWeDoLists = styled.div`
   width: 270px;
   height: 200px;
-  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.6);
   padding: 10px 20px;
   border-radius: 100%;
   padding-top: 30px;
@@ -49,6 +53,18 @@ export const WhatWeDoLists = styled.div`
 
   p {
     font-size: 12px;
+  }
+
+  @media screen and (max-width: 400px) {
+    text-align: center;
+    width: 225px !important;
+    height: 230px;
+    padding: 10px 10px;
+
+    h2 {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
   }
 `;
 

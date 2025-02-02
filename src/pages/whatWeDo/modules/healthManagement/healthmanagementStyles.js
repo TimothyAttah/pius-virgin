@@ -2,6 +2,9 @@ import styled from 'styled-components';
 
 export const HealthManagementContainer = styled.div`
   padding: 20px;
+  @media screen and (max-width: 400px) {
+    text-align: center;
+  }
 `;
 export const HealthManagementTitle = styled.h1`
   color: darkred;
@@ -9,6 +12,10 @@ export const HealthManagementTitle = styled.h1`
   font-size: 40px;
   text-align: center;
   padding-bottom: 30px;
+
+  @media screen and (max-width: 400px) {
+    font-size: 30px;
+  }
 `;
 export const HealthManagementSubTitle = styled.h4`
   color: navy;
@@ -26,5 +33,9 @@ export const HealthManagementList = styled.ul`
   font-weight: bold;
   li {
     padding-bottom: 10px;
+  }
+
+  @media screen and (max-width: 400px) {
+    text-align: left;
   }
 `;

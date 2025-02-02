@@ -6,7 +6,7 @@ export const ArtGalleryContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction:column;
+  flex-direction: column;
 
   h1 {
     font-size: 20px;
@@ -14,5 +14,9 @@ export const ArtGalleryContainer = styled.div`
 
   h4 {
     font-size: 40px;
+  }
+
+  @media screen and (max-width: 400px) {
+    text-align: center;
   }
 `;

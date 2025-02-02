@@ -2,6 +2,10 @@ import styled, { css } from 'styled-components';
 
 export const HumanRelationsContainer = styled.div`
   padding: 20px;
+
+  @media screen and (max-width: 400px) {
+    text-align: center;
+  }
 `;
 export const HumanRelationsTitle = styled.h1`
   color: darkred;
@@ -9,6 +13,10 @@ export const HumanRelationsTitle = styled.h1`
   font-size: 40px;
   /* text-align: center; */
   padding-bottom: 30px;
+
+  @media screen and (max-width: 400px) {
+   font-size: 30px;
+  }
 `;
 export const HumanRelationsSubTitle = styled.h4`
   color: navy;
@@ -31,5 +39,9 @@ export const HumanRelationsList = styled.ul`
   font-weight: bold;
   li {
     padding-bottom: 10px;
+  }
+
+  @media screen and (max-width: 400px) {
+   text-align: left;
   }
 `;

@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 export const ToursAndExcursionContainer = styled.div`
   padding: 20px;
+
+  @media screen and (max-width: 400px) {
+    text-align: center;
+  }
 `;
 
 export const ToursAndExcursionTitle = styled.h1`

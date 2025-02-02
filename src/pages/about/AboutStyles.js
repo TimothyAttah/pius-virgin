@@ -98,11 +98,17 @@ export const AboutCompanyProfile = styled.div`
     font-size: 16px;
     line-height: 25px;
 
-    /* img {
-      width: 240px;
-      margin-bottom: -5px;
-      padding: 0 5px;
-    } */
+    p {
+      font-size: 16px;
+
+      span {
+        img {
+          width: 85px;
+          margin-bottom: -5px;
+          padding: 0 5px;
+        }
+      }
+    }
   }
 `;
 export const AboutCompanyProfileTitle = styled.h2`
@@ -126,9 +132,9 @@ export const AboutListsContainer = styled.div`
 export const AboutListsItem = styled.div`
   width: 300px;
   height: 210px;
-  background-color:#fff;
-  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
-  border-radius:10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
   padding: 20px;
   text-align: center;
 
@@ -140,5 +146,13 @@ export const AboutListsItem = styled.div`
       color: navy;
       font-weight: 600;
     }
+  }
+
+  @media screen and (max-width: 400px) {
+    text-align: center;
+    font-size: 16px;
+
+    height: 280px;
+    /* line-height: 25px; */
   }
 `;

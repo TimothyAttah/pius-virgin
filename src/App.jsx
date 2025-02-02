@@ -40,6 +40,7 @@ const App = () => {
             path='/services/health_management'
             element={<HealthManagement />}
           />
+          <Route path='/contact' element={<Contact />} />
         </Route>
       </Routes>
       <ToastContainer />
